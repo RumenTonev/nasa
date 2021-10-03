@@ -83,7 +83,7 @@ function parseForm(formId) {
 
     fields.each(function () {
         if (this.name === 'LatitudeCenter' || this.name === 'LongitudeCenter' || this.name === 'Width' || this.name === 'Length'
-            || this.name === "Depth" || this.name === "SlopeSteepness" || this.name === "SlopeAngle" || this.name === "LinearMovement" || this.name === "Volume") {
+            || this.name === "Depth" || this.name === "SlopeSteepness" || this.name === "SlopeAngle" || this.name === "SlopeAspect" || this.name === "LandUse" || this.name === "GeologyPermeability" || this.name === "LinearMovement" || this.name === "Volume") {
             values[this.name] = parseFloat($(this).val());
         } else {
             values[this.name] = $(this).val();
