@@ -1,0 +1,49 @@
+<div id="reportLandslideFragment" class="monospace-font">
+
+    <form action="" id="precipitationReport" class="reportFormAdvanced">
+
+        <div class="formSegmentsMargin">
+            <label for="coordinates">Precipitation Details</label>
+            <input type="number" id="latitude" name="coordinates" placeholder="Latitude of precipitation area">
+            <input type="number" id="longitute" name="coordinates" placeholder="Longitute of precipitation area">
+            <input type="number" id="longitute" name="coordinates" placeholder="Precipitation duration">
+            <input type="number" id="longitute" name="coordinates" placeholder="Precipitation rate">
+            <button class="ui-button ui-widget ui-corner-all">Check Coordinates</button>
+        </div>
+
+        <div class="formSegmentsMargin">
+            <label for="city">Nearby City</label>
+            <select id="city" name="city">
+                <option value=""></option>
+                <option value="sofia">Sofia</option>
+                <option value="varna">Varna</option>
+                <option value="starazagora">Stara Zagora</option>
+                <option value="chirpan">Chirpan</option>
+                <option value="chirpan">Kozlodui</option>
+                <option value="chirpan">Lyaskovets</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="names">Reporter Name</label>
+            <input type="text" id="names" name="names" placeholder="Your name..">
+        </div>
+
+        <div>
+            <label for="names">Reporter Phone</label>
+            <input type="text" id="names" name="names" placeholder="Your phone..">
+        </div>
+
+        <div>
+            <label for="date">Date reported</label>
+            <input type="datetime-local" id="date" name="date" placeholder="Date reported">
+        </div>
+
+        <input type="submit" value="Submit" class="ui-button ui-widget ui-corner-all">
+    </form>
+
+
+    <div id="reportLandslidemap" class="reportMap">
+
+    </div>
+</div>
